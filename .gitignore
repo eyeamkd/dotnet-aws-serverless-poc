@@ -1,1 +1,7 @@
 .vs/*
+*/Debug/
+*/Release/
+*/obj
+*/bin
+/dotnet-aws-serverless-poc/obj/Debug/net6.0/dotnet-aws-serverless-poc.assets.cache
+/dotnet-aws-serverless-poc/obj/Debug/net6.0/dotnet-aws-serverless-poc.GeneratedMSBuildEditorConfig.editorconfig
