@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-aws-serverless-poc",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-aws-serverless-poc.Tests", "dotnet-aws-serverless-poc.Tests\dotnet-aws-serverless-poc.Tests.csproj", "{EB83FA97-404F-4D62-A7B1-A9E96EFEE27C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A2D6DB5-E9E9-4E61-A8A6-8A43EE33E8DC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
