@@ -1,0 +1,172 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kunal.d\\POCs\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc.Tests\\dotnet-aws-serverless-poc.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kunal.d\\POCs\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc.Tests\\dotnet-aws-serverless-poc.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kunal.d\\POCs\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc.Tests\\dotnet-aws-serverless-poc.Tests.csproj",
+        "projectName": "dotnet-aws-serverless-poc.Tests",
+        "projectPath": "C:\\Users\\kunal.d\\POCs\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc.Tests\\dotnet-aws-serverless-poc.Tests.csproj",
+        "packagesPath": "C:\\Users\\kunal.d\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kunal.d\\POCs\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kunal.d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/technovert-vso/Tezo/_packaging/TezoFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\kunal.d\\POCs\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc.csproj": {
+                "projectPath": "C:\\Users\\kunal.d\\POCs\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.0.1, )"
+            },
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Amazon.Lambda.TestUtilities": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.5.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kunal.d\\POCs\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kunal.d\\POCs\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc.csproj",
+        "projectName": "dotnet-aws-serverless-poc",
+        "projectPath": "C:\\Users\\kunal.d\\POCs\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc.csproj",
+        "packagesPath": "C:\\Users\\kunal.d\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kunal.d\\POCs\\dotnet-aws-serverless-poc\\dotnet-aws-serverless-poc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kunal.d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/technovert-vso/Tezo/_packaging/TezoFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Amazon.Lambda.AspNetCoreServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[6.0.15, 6.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

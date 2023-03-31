@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "r2z5edcj9b1nd4pnWP1v/SJesxilyaRdLJaGzT1SpGQ=",
+  "Source": "dotnet-aws-serverless-poc",
+  "BasePath": "_content/dotnet-aws-serverless-poc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
