@@ -1,1 +1,41 @@
-.vs/*
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.vs/
+*.csproj.user
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio files
+*.VisualState.xml
+*.vsp
+*.psess
+*.psessproj
+*.sln.docstates
+
+# .NET Core files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# AWS SDK files
+aws-sdk-dotnet/
+
+# Other
+node_modules/
+bower_components/
+*.log
+*.swp
+Thumbs.db
+.DS_Store
